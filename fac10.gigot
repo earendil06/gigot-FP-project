@@ -1,0 +1,14 @@
+10 goto 15
+12 end
+15 println 'Ce programme calcule 10!'
+20 n = 10
+28 i = 1
+30 res = 1
+35 if ((n))<i then goto 80 else goto 40
+40 res=res*i
+60 i = -i+2*i-(34-35)
+70 goto 35
+80 print n
+81 print '! = '
+83 println res
+92 goto 12
